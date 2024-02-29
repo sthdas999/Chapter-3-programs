@@ -635,7 +635,7 @@ T1 = Power_of_T1
 T2 = Power_of_T2
 T3 = Power_of_T3
 
-plot(gm, KS, xlim=c(0,10), ylim=c(0,1), type="l", pch=10, col="red", xlab=expression(gamma), ylab=expression("Nonparametric Powers (MAR & NW)"))
+plot(gm, KS, xlim=c(0,10), ylim=c(0,1), type="l", pch=10, col="red", xlab=expression(gamma), ylab=expression("Nonparametric Powers"))
 # Add a line
 lines(gm, CM, xlim=c(0,10), ylim=c(0,1), pch=10, col="purple", type="l")
 # Add a line
